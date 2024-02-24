@@ -6,9 +6,9 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
+  
   console.log("Hello Rigo from the console!");
-  // create arrays for domain name generation
+ 
   let pronoun = ["the", "our", "my"];
   let adj = ["great", "big", "amazing"];
   let noun = ["jogger", "racoon", "dog", "student"];
@@ -23,4 +23,5 @@ window.onload = function() {
         console.log(pronoun [i] + adj [j] + noun [k] + ".com")
     }
   }
+}
 };
